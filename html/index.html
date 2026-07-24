@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EduMaster</title>
+
+<!-- Bootstrap -->
+
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="../css/styles.css">
+
+<!-- JS -->
+
+<script defer src="../scripts/app.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar navbar-expand-md">
+
+<div class="container">
+
+<a class="navbar-brand fw-bold" href="#">
+
+<i class="bi bi-mortarboard-fill"></i>
+
+EduMaster
+
+</a>
+
+<!-- CSS ONLY MENU -->
+
+<input type="checkbox" id="menu-toggle">
+
+<label class="menu-btn" for="menu-toggle">
+
+<span></span>
+<span></span>
+<span></span>
+
+</label>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#roadmap">Roadmap</a></li>
+
+<li><a href="#courses">Courses</a></li>
+
+<li><a href="#reviews">Reviews</a></li>
+
+<li><a href="#signup">Sign Up</a></li>
+
+<li><a href="#faq">FAQ</a></li>
+
+<li>
+
+<button
+id="darkMode"
+class="btn btn-outline-light rounded-pill">
+
+<i class="bi bi-moon-fill"></i>
+
+</button>
+
+</li>
+
+</ul>
+
+</div>
+
+</nav>
+
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section
+id="home"
+class="hero">
+
+<div class="container">
+
+<div class="row align-items-center g-5">
+
+<div class="col-12 col-md-6">
+
+<h1>
+
+Learn Web Development
+From Zero To Professional
+
+</h1>
+
+<p>
+
+Master HTML, CSS,
+JavaScript and React
+through practical projects
+and modern UI design.
+
+</p>
+
+<div class="d-flex gap-3 flex-wrap">
+
+<a
+href="#courses"
+class="btn btn-primary rounded-pill">
+
+Explore Courses
+
+</a>
+
+<a
+href="#roadmap"
+class="btn btn-outline-light rounded-pill">
+
+Roadmap
+
+</a>
+
+</div>
+
+<div class="hero-stats mt-5">
+
+<div>
+
+<h3>15K+</h3>
+
+<p>Students</p>
+
+</div>
+
+<div>
+
+<h3>40+</h3>
+
+<p>Projects</p>
+
+</div>
+
+<div>
+
+<h3>4.9★</h3>
+
+<p>Rating</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-12 col-md-6">
+
+<div class="hero-image">
+
+<img
+src="../images/herolanding.jpg"
+alt="Hero">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section
+id="about"
+class="about">
+
+<div class="container">
+
+<div class="row align-items-center g-5">
+
+<div class="col-12 col-md-6">
+
+<img
+src="../images/aboutlanding.webp"
+class="img-fluid rounded-4"
+alt="About">
+
+</div>
+
+<div class="col-12 col-md-6">
+
+<article>
+<h1>About Us</h1>
+<h2>
+
+Why EduMaster?
+
+</h2>
+
+<p>
+
+EduMaster is a modern learning
+platform focused on Front-End
+Development.
+
+Learn step by step through
+interactive projects,
+beautiful UI,
+responsive design,
+and real-world practice.
+
+</p>
+
+<div class="features">
+
+<div>
+
+<i class="bi bi-check-circle-fill"></i>
+
+Practical Projects
+
+</div>
+
+<div>
+
+<i class="bi bi-check-circle-fill"></i>
+
+Responsive Design
+
+</div>
+
+<div>
+
+<i class="bi bi-check-circle-fill"></i>
+
+Modern UI
+
+</div>
+
+<div>
+
+<i class="bi bi-check-circle-fill"></i>
+
+Career Roadmap
+
+</div>
+
+</div>
+
+</article>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= ROADMAP ================= -->
+
+<!-- <section id="roadmap" class="roadmap">
+
+<div class="container">
+
+<h2 class="section-title text-center">
+
+Learning Roadmap
+
+</h2>
+
+<ol class="timeline">
+
+<li>
+
+<article class="timeline-card">
+
+<div class="circle">
+
+1
+
+</div>
+
+<div class="content">
+
+<h3>HTML5</h3>
+
+<p>
+
+Learn semantic HTML,
+forms,
+tables,
+accessibility,
+and best practices.
+
+</p>
+
+</div>
+
+</article>
+
+</li>
+
+<li>
+
+<article class="timeline-card">
+
+<div class="circle">
+
+2
+
+</div>
+
+<div class="content">
+
+<h3>CSS3</h3>
+
+<p>
+
+Flexbox,
+Grid,
+Animations,
+Responsive Design,
+Bootstrap.
+
+</p>
+
+</div>
+
+</article>
+
+</li>
+
+<li>
+
+<article class="timeline-card">
+
+<div class="circle">
+
+3
+
+</div>
+
+<div class="content">
+
+<h3>JavaScript</h3>
+
+<p>
+
+DOM,
+ES6,
+Events,
+Functions,
+Arrays,
+Objects.
+
+</p>
+
+</div>
+
+</article>
+
+</li>
+
+<li>
+
+<article class="timeline-card">
+
+<div class="circle">
+
+4
+
+</div>
+
+<div class="content">
+
+<h3>React</h3>
+
+<p>
+
+Components,
+Hooks,
+Routing,
+API,
+Projects.
+
+</p>
+
+</div>
+
+</article>
+
+</li>
+
+</ol>
+
+</div>
+
+</section> -->
+<section class="roadmap">
+
+    <h2 class="text-center mb-5">Learning Roadmap</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="circle">1</div>
+            <div class="content">HTML & CSS Bootcamp</div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="circle">2</div>
+            <div class="content">JavaScript Essentials</div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="circle">3</div>
+            <div class="content">Bootstrap 5 Masterclass</div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="circle">4</div>
+            <div class="content">Git & GitHub</div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="circle">5</div>
+            <div class="content">React.js Fundamentals</div>
+        </div>
+
+
+    </div>
+
+</section>
+<!-- ================= COURSES ================= -->
+
+
+<!-- <section id="courses" class="courses">
+
+<div class="container">
+
+<h2 class="section-title text-center">
+
+Popular Courses
+
+</h2>
+
+<div class="course-slider">
+
+<article id="slide1" class="course-card">
+
+<img src="../images/htmllanding.svg" alt="HTML">
+
+<h3>HTML5</h3>
+
+<span class="badge bg-success">
+
+Open Now
+
+</span>
+
+<p>
+
+Build modern semantic websites.
+
+</p>
+
+<details>
+
+<summary class="btn btn-primary rounded-pill">
+
+Days Left
+
+</summary>
+
+<p>
+
+Starts in 3 days.
+
+</p>
+
+</details>
+
+</article>
+
+<article id="slide2" class="course-card">
+
+<img src="../images/csslanding.svg" alt="CSS">
+
+<h3>CSS3</h3>
+
+<span class="badge bg-warning text-dark">
+
+Coming Soon
+
+</span>
+
+<p>
+
+Responsive Design & Animations.
+
+</p>
+
+<details>
+
+<summary class="btn btn-primary rounded-pill">
+
+Days Left
+
+</summary>
+
+<p>
+
+Starts in 10 days.
+
+</p>
+
+</details>
+
+</article>
+
+<article id="slide3" class="course-card">
+
+<img src="../images/jslanding.svg" alt="JavaScript">
+
+<h3>JavaScript</h3>
+
+<span class="badge bg-primary">
+
+Open Soon
+
+</span>
+
+<p>
+
+Interactive websites using JavaScript.
+
+</p>
+
+<details>
+
+<summary class="btn btn-primary rounded-pill">
+
+Days Left
+
+</summary>
+
+<p>
+
+Starts in 18 days.
+
+</p>
+
+</details>
+
+</article>
+
+<article id="slide4" class="course-card">
+
+<img src="../images/reactlanding.svg" alt="React">
+
+<h3>React</h3>
+
+<span class="badge bg-secondary">
+
+Closed
+
+</span>
+
+<p>
+
+Advanced Front-End Development.
+
+</p>
+
+<details>
+
+<summary class="btn btn-primary rounded-pill">
+
+Days Left
+
+</summary>
+
+<p>
+
+Already Finished.
+
+</p>
+
+</details>
+
+</article>
+
+
+
+<article id="slide2" class="course-card">
+
+<img src="../images/bootlanding.svg" alt="Bootstrap">
+
+<h3>Bootstrap</h3>
+
+<span class="badge bg-warning text-dark">
+
+Coming Soon
+
+</span>
+
+<p>
+Design responsive websites with Bootstrap framework.
+</p>
+
+<details>
+
+<summary class="btn btn-primary rounded-pill">
+
+Days Left
+
+</summary>
+
+<p>
+
+Starts in 10 days.
+
+</p>
+
+</details>
+
+</article>
+
+<article id="slide3" class="course-card">
+
+<img src="../images/gitlanding.svg" alt="Git">
+
+<h3>Git & GitHub</h3>
+
+<span class="badge bg-primary">
+
+Open Soon
+
+</span>
+
+<p>
+
+Version Control with Git and GitHub.
+
+
+</p>
+
+<details>
+
+<summary class="btn btn-primary rounded-pill">
+
+Days Left
+
+</summary>
+
+<p>
+
+Starts in 15 days.
+
+</p>
+
+</details>
+
+</article>
+
+</div> -->
+
+<section id="courses" class="courses">
+  <div class="container">
+    <h2 class="section-title text-center">Popular Courses</h2>
+
+    <div class="course-slider">
+      
+      <article id="slide1" class="course-card">
+        <img src="../images/htmllanding.svg" alt="HTML">
+        <h3>HTML5</h3>
+        <span class="badge bg-success">Open Now</span>
+        <p>Build modern semantic websites.</p>
+        <details>
+          <summary class="btn btn-primary rounded-pill">Days Left</summary>
+          <p>Starts in 3 days.</p>
+        </details>
+      </article>
+
+      <article id="slide2" class="course-card">
+        <img src="../images/csslanding.svg" alt="CSS">
+        <h3>CSS3</h3>
+        <span class="badge bg-warning text-dark">Coming Soon</span>
+        <p>Responsive Design & Animations.</p>
+        <details>
+          <summary class="btn btn-primary rounded-pill">Days Left</summary>
+          <p>Starts in 10 days.</p>
+        </details>
+      </article>
+
+      <article id="slide3" class="course-card">
+        <img src="../images/jslanding.svg" alt="JavaScript">
+        <h3>JavaScript</h3>
+        <span class="badge bg-primary">Open Soon</span>
+        <p>Interactive websites using JavaScript.</p>
+        <details>
+          <summary class="btn btn-primary rounded-pill">Days Left</summary>
+          <p>Starts in 18 days.</p>
+        </details>
+      </article>
+
+      <article id="slide4" class="course-card">
+        <img src="../images/reactlanding.svg" alt="React">
+        <h3>React</h3>
+        <span class="badge bg-secondary">Closed</span>
+        <p>Advanced Front-End Development.</p>
+        <details>
+          <summary class="btn btn-primary rounded-pill">Days Left</summary>
+          <p>Already Finished.</p>
+        </details>
+      </article>
+
+      <article id="slide5" class="course-card">
+        <img src="../images/bootlanding.svg" alt="Bootstrap">
+        <h3>Bootstrap</h3>
+        <span class="badge bg-warning text-dark">Coming Soon</span>
+        <p>Design responsive websites with Bootstrap framework.</p>
+        <details>
+          <summary class="btn btn-primary rounded-pill">Days Left</summary>
+          <p>Starts in 10 days.</p>
+        </details>
+      </article>
+
+      <article id="slide6" class="course-card">
+        <img src="../images/gitlanding.svg" alt="Git">
+        <h3>Git & GitHub</h3>
+        <span class="badge bg-primary">Open Soon</span>
+        <p>Version Control with Git and GitHub.</p>
+        <details>
+          <summary class="btn btn-primary rounded-pill">Days Left</summary>
+          <p>Starts in 15 days.</p>
+        </details>
+      </article>
+
+    </div>
+
+    <div class="slider-nav">
+      <a href="#slide1"></a>
+      <a href="#slide2"></a>
+      <a href="#slide3"></a>
+      <a href="#slide4"></a>
+      <a href="#slide5"></a>
+      <a href="#slide6"></a>
+    </div>
+
+  </div>
+</section>
+<!-- reviews -->
+
+<section class="reviews py-5" id="reviews">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="section-title">
+
+                Student Reviews
+
+            </h2>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4">
+
+                <div class="review-card">
+
+                    <div class="review-img">
+                        <img src="../images/person1landing.webp" alt="Sarah Ahmed">
+                    </div>
+
+                    <h4>Sarah Ahmed</h4>
+
+                    <div class="text-warning mb-3">
+
+                        ★★★★★
+
+                    </div>
+
+                    <p>
+
+                        This platform completely changed the way I learn.
+                        The courses are practical and easy to follow.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="review-card">
+
+                    <div class="review-img">
+                        <img src="../images/person2landing.avif" alt="Mohamed Ali">
+                    </div>
+
+                    <h4>Mohamed Ali</h4>
+
+                    <div class="text-warning mb-3">
+
+                        ★★★★★
+
+                    </div>
+
+                    <p>
+
+                        I landed my first freelance project after finishing
+                        the Front-End track.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="review-card">
+
+                    <div class="review-img">
+                        <img src="../images/person3landing.avif" alt="Emily Johnson">
+                    </div>
+
+                    <h4>Rana Mahmoud</h4>
+
+                    <div class="text-warning mb-3">
+
+                        ★★★★★
+
+                    </div>
+
+                    <p>
+
+                        The instructors are amazing and the projects are
+                        exactly what companies need.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= SIGN UP ================= -->
+
+<section id="signup" class="signup">
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-12 col-md-8">
+
+<form>
+
+<fieldset class="signup-box">
+
+<legend>Join EduMaster</legend>
+
+<div class="row g-3">
+
+<div class="col-12 col-md-6">
+
+<label class="form-label">
+
+Full Name
+
+</label>
+
+<input
+type="text"
+class="form-control"
+placeholder="Your Name"
+required>
+
+</div>
+
+<div class="col-12 col-md-6">
+
+<label class="form-label">
+
+Email Address
+
+</label>
+
+<input
+type="email"
+class="form-control"
+placeholder="Your Email"
+required>
+
+</div>
+
+<div class="col-12">
+
+<label class="form-label">
+
+Choose Course
+
+</label>
+
+<select class="form-select">
+
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>React</option>
+
+</select>
+
+</div>
+
+<div class="col-12 text-center">
+
+<button
+class="btn btn-primary rounded-pill px-5"
+type="submit">
+
+Sign Up
+
+</button>
+
+</div>
+
+</div>
+
+</fieldset>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+
+<section id="faq" class="faq">
+
+<div class="container">
+
+<h2 class="section-title text-center">
+
+Frequently Asked Questions
+
+</h2>
+
+<details class="faq-item">
+
+<summary>
+
+Do I need programming experience?
+
+</summary>
+
+<p>
+
+No.
+Everything starts from the basics.
+
+</p>
+
+</details>
+
+<details class="faq-item">
+
+<summary>
+
+How long does learning take?
+
+</summary>
+
+<p>
+
+It depends on your practice,
+but most students become comfortable
+within a few months.
+
+</p>
+
+</details>
+
+<details class="faq-item">
+
+<summary>
+
+Can I study from my phone?
+
+</summary>
+
+<p>
+
+Yes.
+The platform is fully responsive.
+
+</p>
+
+</details>
+
+<details class="faq-item">
+
+<summary>
+
+Will I receive a certificate?
+
+</summary>
+
+<p>
+
+Yes,
+after completing the course successfully.
+
+</p>
+
+</details>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+<div class="container">
+
+<div class="row g-4">
+
+<div class="col-12 col-md-4">
+
+<h3>
+
+EduMaster
+
+</h3>
+
+<p>
+
+Helping thousands of students
+learn modern web development.
+
+</p>
+
+</div>
+
+<div class="col-12 col-md-4">
+
+<h4>
+
+Quick Links
+
+</h4>
+
+<ul class="list-unstyled">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#courses">Courses</a></li>
+
+<li><a href="#faq">FAQ</a></li>
+
+</ul>
+
+</div>
+
+<div class="col-12 col-md-4">
+
+<h4>
+
+Follow Us
+
+</h4>
+
+<div class="social-icons">
+
+<a href="#"><i class="bi bi-facebook"></i></a>
+
+<a href="#"><i class="bi bi-instagram"></i></a>
+
+<a href="#"><i class="bi bi-github"></i></a>
+
+<a href="#"><i class="bi bi-linkedin"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="text-center">
+
+© 2026 EduMaster. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>
